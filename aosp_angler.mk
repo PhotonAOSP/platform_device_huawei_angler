@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Inherit photon-specific board config
+include device/huawei/angler/BoardConfigPhoton.mk
+
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
@@ -36,4 +39,3 @@ $(call inherit-product-if-exists, vendor/huawei/angler/device-vendor.mk)
 
 PRODUCT_PACKAGES += \
     Launcher3
-
