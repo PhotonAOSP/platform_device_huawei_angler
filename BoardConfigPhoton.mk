@@ -10,3 +10,6 @@ BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 
 # Use device's audio_effects.conf
 TARGET_USE_DEVICE_AUDIO_EFFECTS_CONF := true
+
+# Ignore vendor audio_effects.conf
+TARGET_IGNORE_VENDOR_AUDIO_EFFECTS_CONF := true
