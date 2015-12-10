@@ -7,3 +7,6 @@
 
 # Enable vendor image symlink
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
+
+# Use device's audio_effects.conf
+TARGET_USE_DEVICE_AUDIO_EFFECTS_CONF := true
