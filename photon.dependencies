@@ -6,10 +6,10 @@
     "revision": "mm6.0"
   },
   {
-    "remote": "photon",
-    "repository": "platform_kernel_huawei_angler",
-    "target_path": "kernel/huawei/angler",
-    "revision": "mm6.0"
+    "remote": "aosp",
+    "repository": "platform/device/huawei/angler-kernel/",
+    "target_path": "device/huawei/angler-kernel/",
+    "revision": "refs/tags/android-6.0.1_r3"
   },
   { 
     "remote": "pure-repos",
